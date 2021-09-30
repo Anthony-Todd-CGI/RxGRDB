@@ -5,10 +5,10 @@ import PackageDescription
 let package = Package(
     name: "RxGRDB",
     platforms: [
-        .iOS("10.0"),
-        .macOS("10.10"),
-        .tvOS("9.0"),
-        .watchOS("2.0"),
+        .iOS(.v11),
+        .macOS(.v10_10),
+        .tvOS(.v9),
+        .watchOS(.v2),
     ],
     products: [
         .library(name: "RxGRDB", targets: ["RxGRDB"]),
